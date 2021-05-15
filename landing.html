@@ -203,37 +203,10 @@ font-family: 'Quicksand', sans-serif;
 	}
 
     .footer-section {
-  margin: 0 auto;
-  width: 1200px;
-}
+        margin: 0 auto;
+        width: 1200px;
+    }
 
-	.contact-section {
-	  display: flex;
-	  flex-direction: row;
-	  width: 100%;
-	  background-color: #48b18c6b;
-	  margin: 0;
-	}
-
-	.contact-details {
-	  width: 33%;
-	  display: flex;
-	  justify-content: center;
-	  text-align: center;
-	  align-items: center;
-	  border-right: black 2px solid;
-	  padding: 20px 0;
-	}
-	
-	#contact-details {
-	  border-right: none;
-	}
-
-	.contact-details img {
-	  margin: 0px 40px 0 20px;
-	  width: 40px;
-	  height: 40px;
-	}
 
 	.contact-form-section {
 	  background-image: url(./img/footer-Image.jpg);
@@ -244,6 +217,7 @@ font-family: 'Quicksand', sans-serif;
 	  width: 100%;
 	  object-fit: cover;
 	  margin-top: 100px;
+
 	}
 
 	.form-section {
@@ -251,7 +225,10 @@ font-family: 'Quicksand', sans-serif;
 	  display: flex;
 	  flex-direction: column;
 	  float: left;
-	  margin: 160px auto auto 55px;
+	  /* margin: 160px auto auto 55px; */
+       position: relative;
+       top: 160px;
+       left: 80px;
 	}
 
 	#email {
@@ -284,6 +261,48 @@ font-family: 'Quicksand', sans-serif;
 	  margin: 0 auto;
 	  text-align: center;
 	  justify-content: center;
+	}
+
+    .form-section button:hover {
+        width: 140px;
+        background-color: rgb(192, 181, 181);
+        color: rgb(19, 21, 22);
+        font-size: large;
+        font-weight: 700;
+        border-radius: 10px;
+        padding: 12px 10px;
+        margin: 0 auto;
+    }
+
+
+
+
+    .contact-section {
+	  display: flex;
+	  flex-direction: row;
+	  width: 100%;
+	  background-color: #48b18c6b;
+	  margin: 0;
+	}
+
+	.contact-details {
+	  width: 33%;
+	  display: flex;
+	  justify-content: center;
+	  text-align: center;
+	  align-items: center;
+	  border-right: black 2px solid;
+	  padding: 20px 0;
+	}
+	
+	#contact-details {
+	  border-right: none;
+	}
+
+	.contact-details img {
+	  margin: 0px 40px 0 20px;
+	  width: 40px;
+	  height: 40px;
 	}
 
 </style>
