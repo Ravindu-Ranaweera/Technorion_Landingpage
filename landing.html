@@ -122,16 +122,17 @@ font-family: 'Quicksand', sans-serif;
 	  opacity: 0.8;
 	}
 
-	#service-wrapper{
-		width: 1200px; 
+	#services-wrapper{
+		width: 1200px ;  
 		margin: 50px auto;
 	}
 
 	#services{
-		margin: 0 100px;
+		width: 100%;
+		padding: 0 50px;
 		display: grid;
-		grid-template-rows: 200px;
 		grid-template-columns: 1fr 1fr 1fr;
+		box-sizing: border-box;
 	}
 
 	.services-item{
@@ -139,6 +140,12 @@ font-family: 'Quicksand', sans-serif;
 		flex-direction: column;
 		align-items: center;
 		padding: 30px;
+		transition: all 0.5s;
+	}
+
+	.services-item:hover{
+		background: #ADD8E6;
+		color: darkblue;
 	}
 
 	.services-item-img{
@@ -182,6 +189,7 @@ font-family: 'Quicksand', sans-serif;
 	#mid-section-link{
 		font-weight: bold;
 		color: black;
+		text-decoration: none;
 	}
 	#mid-section-link, #mid-section-link svg{
 		width: 100px;
