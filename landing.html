@@ -122,133 +122,156 @@ font-family: 'Quicksand', sans-serif;
 	  opacity: 0.8;
 	}
 
+	#service-wrapper{
+		width: 1200px; 
+		margin: 50px auto;
+	}
+
 	#services{
-			display: grid;
-			grid-template-rows: 200px;
-			grid-template-columns: 1fr 1fr 1fr;
-		}
+		margin: 0 100px;
+		display: grid;
+		grid-template-rows: 200px;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 
-		.services-item{
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			padding: 50px;
-		}
-		.services-item-header{
-			margin-bottom: 10px;
-		}
+	.services-item{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 30px;
+	}
 
-.services-item-content{
-	margin: 0 20px;
-	text-align: center;
-}
-		#bottom-section{
-			width: 1200px;
-			margin: 100px auto;
-			overflow: hidden;
-			display: flex;
-			flex-direction: row;
-			align-items: center;
-		}
-		.bottom-mid{
-			flex: 1;
-			margin-left: 20px;
-		}
+	.services-item-img{
+		width: 50px;
+		height: 50px;
+	}
 
+	.services-item-header{
+		margin-bottom: 10px;
+	}
 
-		#bottom-section-header{
-			margin-bottom: 30px;
-			font-size: 30px;
-		}
+	.services-item-content{
+		margin: 0 20px;
+		text-align: center;
+	}
 
-		#bottom-section-p{
-			margin-bottom: 30px;
-		}
-
-		#bottom-section-link{
-			font-weight: bold;
-			color: black;
-		}
+	#mid-section{
+		width: 1200px;
+		margin: 100px auto;
+		overflow: hidden;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.mid-item{
+		flex: 1;
+		margin-left: 20px;
+	}
 
 
-		.contact-section {
-		  display: flex;
-		  flex-direction: row;
-		  width: 100%;
-		  background-color: #48b18c6b;
-		  margin: 0;
-		}
+	#mid-section-header{
+		margin-bottom: 30px;
+		font-size: 30px;
+	}
 
-		.contact-details {
-		  width: 33%;
-		  display: flex;
-		  justify-content: center;
-		  text-align: center;
-		  align-items: center;
-		  border-right: black 2px solid;
-		  padding: 20px 0;
-		}
-		
-		#contact-details {
-		  border-right: none;
-		}
+	#mid-section-p{
+		margin-bottom: 30px;
+		text-align: right;
+	}
 
-		.contact-details img {
-		  margin: 0px 40px 0 20px;
-		  width: 40px;
-		  height: 40px;
-		}
+	#mid-section-link{
+		font-weight: bold;
+		color: black;
+	}
+	#mid-section-link, #mid-section-link svg{
+		width: 100px;
+		height: 50px;
+	}
 
-		.contact-form-section {
-		  background-image: url(./img/footer-Image.jpg);
-		  background-position: center;
-		  background-repeat: no-repeat;
-		  background-size: auto;
-		  height: 690px;
-		  width: 100%;
-		  object-fit: cover;
-		  margin-top: 100px;
-		}
+	#mid-item-info{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
 
-.form-section {
-  width: 25%;
-  display: flex;
-  flex-direction: column;
-  float: left;
-  margin: 160px auto auto 55px;
-}
+	.contact-section {
+	  display: flex;
+	  flex-direction: row;
+	  width: 100%;
+	  background-color: #48b18c6b;
+	  margin: 0;
+	}
 
-#email {
-  padding: 12px 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  font-size: larger;
-  border: rgb(172, 166, 166) 2px solid;
-  font-weight: 500;
-  font-family: "Courier New", Courier, monospace;
-}
+	.contact-details {
+	  width: 33%;
+	  display: flex;
+	  justify-content: center;
+	  text-align: center;
+	  align-items: center;
+	  border-right: black 2px solid;
+	  padding: 20px 0;
+	}
+	
+	#contact-details {
+	  border-right: none;
+	}
 
-#comment {
-  padding: 25px 20px;
-  border-radius: 10px;
-  border: rgb(172, 166, 166) 2px solid;
-  margin-bottom: 20px;
-  font-size: larger;
-  font-weight: 500;
-  font-family: "Courier New", Courier, monospace;
-}
-.form-section button {
-  width: 120px;
-  background-color: black;
-  color: aliceblue;
-  font-size: large;
-  font-weight: 700;
-  border-radius: 10px;
-  padding: 5px 0px;
-  margin: 0 auto;
-  text-align: center;
-  justify-content: center;
-}
+	.contact-details img {
+	  margin: 0px 40px 0 20px;
+	  width: 40px;
+	  height: 40px;
+	}
+
+	.contact-form-section {
+	  background-image: url(./img/footer-Image.jpg);
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: auto;
+	  height: 690px;
+	  width: 100%;
+	  object-fit: cover;
+	  margin-top: 100px;
+	}
+
+	.form-section {
+	  width: 25%;
+	  display: flex;
+	  flex-direction: column;
+	  float: left;
+	  margin: 160px auto auto 55px;
+	}
+
+	#email {
+	  padding: 12px 20px;
+	  border-radius: 10px;
+	  margin-bottom: 20px;
+	  font-size: larger;
+	  border: rgb(172, 166, 166) 2px solid;
+	  font-weight: 500;
+	  font-family: "Courier New", Courier, monospace;
+	}
+
+	#comment {
+	  padding: 25px 20px;
+	  border-radius: 10px;
+	  border: rgb(172, 166, 166) 2px solid;
+	  margin-bottom: 20px;
+	  font-size: larger;
+	  font-weight: 500;
+	  font-family: "Courier New", Courier, monospace;
+	}
+	.form-section button {
+	  width: 120px;
+	  background-color: black;
+	  color: aliceblue;
+	  font-size: large;
+	  font-weight: 700;
+	  border-radius: 10px;
+	  padding: 5px 0px;
+	  margin: 0 auto;
+	  text-align: center;
+	  justify-content: center;
+	}
 
 </style>
 <body>
@@ -284,33 +307,33 @@ font-family: 'Quicksand', sans-serif;
 		 </figure>
    	</div>
 
-   	<div id="services-wrapper" style="width: 1200px; padding-left: 50px; margin: 50px auto;">
+   	<div id="services-wrapper">
 		<div  id="services">
 			<div class="services-item">
-				<img class="services-item-img" src="./img/service01.png" style="width: 50px;height: 50px;" alt="">
+				<img class="services-item-img" src="./img/service01.png" alt="">
 				<h3 class="services-item-header" >Alienum phaedrum</h3>
 				<p class="services-item-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error dolore tenetur</p>
 			</div>
 
 			<div class="services-item">
-				<img class="services-item-img" src="./img/service02.png" style="width: 50px;height: 50px;" alt="">
+				<img class="services-item-img" src="./img/service02.png" alt="">
 				<h3 class="services-item-header">Alienum phaedrum</h3>
 				<p class="services-item-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error dolore tenetur</p>
 			</div>
 
 			<div class="services-item">
-				<img class="services-item-img" src="./img/service03.png" style="width: 50px;height: 50px;" alt="">
+				<img class="services-item-img" src="./img/service03.png" alt="">
 				<h3 class="services-item-header">Alienum phaedrum</h3>
 				<p class="services-item-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error dolore tenetur</p>
 			</div>
 		</div>
 	</div>
 
-	<div id="bottom-section">
-		<div class="bottom-mid" style="margin-right: 30px; display: flex; flex-direction: column; align-items: flex-end; justify-content: center;">
-			<h3 id="bottom-section-header">spring/summer 2021.</h3>	
-			<p id="bottom-section-p" style="text-align: right;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, voluptatibus molestiae, natus laudantium animi aliquam.</p>
-			<a id="bottom-section-link" href="#">learn more
+	<div id="mid-section">
+		<div class="mid-item" id="mid-item-info" >
+			<h3 id="mid-section-header">spring/summer 2021.</h3>	
+			<p id="mid-section-p" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, voluptatibus molestiae, natus laudantium animi aliquam.</p>
+			<a id="mid-section-link" href="#">learn more<br/>
 				<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"  viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 					
 					<path d="M506.134,241.843c-0.006-0.006-0.011-0.013-0.018-0.019l-104.504-104c-7.829-7.791-20.492-7.762-28.285,0.068
@@ -320,11 +343,11 @@ font-family: 'Quicksand', sans-serif;
 				</svg>
 			</a>
 		</div>
-		<div class="bottom-mid">
+		<div class="mid-item">
 			<img src="img/body01.jpg" alt="" style="width: 400px;">
 		</div>
-		<div class="bottom-mid">
-			<img src="img/body02.jpg" alt="" style="width: 380px; height: 400px;">
+		<div class="mid-item">
+			<img src="img/body02.jpg" alt="" style="width: 400px; height: 400px;">
 		</div>
 		
 		
